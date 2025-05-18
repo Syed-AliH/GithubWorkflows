@@ -19,7 +19,7 @@ jobs:
       - name: "Install dependencies"
         run: "npm install"
       
-      - echo: "Running tests"
+      - run: echo "Running tests"
 
       - name: Ensure Jest is Executable
         run: chmod +x node_modules/.bin/jest
